@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container1 {
+    background-color: #278A80;
+}
+
+.heading {
+    color: black;
+    font-weight: 400;
+}
+
+@media screen and (min-width:799px) {
+    .heading {
+        font-weight: 600;
+    }
+}
+
+#nav-list {
+    color: #9aa5b1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav-list1 {
+    color: #9aa5b1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav-list2 {
+    color: #9aa5b1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav-list3 {
+    color: #9aa5b1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav-list4 {
+    color: #9aa5b1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container2 {
+    background-color: #3D272D;
+    background-size: cover;
+    height: 100vh;
+}
+
+.name {
+    position: relative;
+    background-image: radial-gradient(ellipse 50% 35% at 50% 50%,
+            #6b1839,
+            transparent);
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.25rem;
+    left: 50%;
+    top: 30%;
+    font-family: "Clip";
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+        -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+        0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 280px;
+}
+
+.button {
+    background-color: #1c87c9;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.skillcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+
+.wcu-card {
+    margin-top: 75px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-radius: 16px;
+    padding: 15px;
+    margin-right: 55px;
+    margin-left: 45px;
+}
+
+.educard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.profile1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    background-color: #3D272D;
+}
+
+.edutech {
+    background-color: #3D272D;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.skillsec1 {
+    background-color: #3D272D;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 30px;
+}
+
+.skillcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 350px;
+    width: 350px;
+    margin-left: 25px;
+}
+
+.card4 {
+    color: white;
+    background-color: #3D272D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.text1 {
+    font-size: 15px;
+    color: white;
+}
+
+.workcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background-size: cover;
+}
+
+.card5 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 85px;
+
+}
+
+.card55 {
+    background-color: #3D272D;
+    height: 100vh;
+    background-size: cover;
+}
+
+.phead {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    padding: 35px;
+}
+
+.phead1 {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    padding: 85px;
+}
